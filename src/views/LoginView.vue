@@ -6,7 +6,7 @@
         alt="logo bd corporation"
         class="img-contain"
         width="300"
-        src="@/assets/images/logo-bd.png"
+        src="@/assets/images/logo-bd.jpg"
       />
     </div>
     <div class="container">

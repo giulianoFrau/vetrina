@@ -2,12 +2,12 @@
   <div class="menu-container">
     <Menubar :model="items">
       <template #start>
-        <img alt="logo bd" src="@/assets/images/logo-bd.png" v-if="!isMobile" />
+       
         <img
           alt="logo bd"
-          src="@/assets/images/logo-bd.png"
-          width="200"
-          v-else
+          src="@/assets/images/logo-bd.jpg"
+          :width="isMobile?'200':'400'"
+       
         />
       </template>
       <template #item="{ item, props, hasSubmenu, root }">
@@ -67,7 +67,7 @@ const items = ref([
 
   @include media-breakpoint-down("lg") {
     .p-menubar .p-menubar-root-list {
-      border-color: #35dee5 transparent transparent transparent;
+      border-color: #873021 transparent transparent transparent;
       border-style: solid solid solid solid;
       border-width: 2px 0px 0px 0px;
     }
