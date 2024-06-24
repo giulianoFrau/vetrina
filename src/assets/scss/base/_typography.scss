@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Suprema-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Suprema-Light"),
+    url("@/assets/fonts/Suprema-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Suprema-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Suprema-Regular"),
+    url("@/assets/fonts/Suprema-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Suprema-SemiBold";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Suprema-SemiBold"),
+    url("@/assets/fonts/Suprema-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Suprema-Bold";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Suprema-Bold"),
+    url("@/assets/fonts/Suprema-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Suprema-ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Suprema-ExtraBold"),
+    url("@/assets/fonts/Suprema-ExtraBold.woff") format("woff");
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+}
