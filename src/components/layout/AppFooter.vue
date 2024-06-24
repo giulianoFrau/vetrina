@@ -6,13 +6,13 @@
       <div class="flex-shrink-0">
         <img
           alt="logo bd"
-          src="@/assets/images/logo-bd.png"
+          src="@/assets/images/logo-bd-black.png"
           :class="{ 'w-32': isMobile, 'w-48': !isMobile }"
         />
       </div>
       <nav class="ml-10 flex gap-x-4 flex-wrap">
         <router-link to="/" class="text-white hover:text-gray-300"
-          >Home</router-link
+          >Privacy Policy</router-link
         >
         <router-link to="/servizi" class="text-white hover:text-gray-300"
           >Servizi</router-link

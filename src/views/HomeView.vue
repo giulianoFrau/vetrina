@@ -7,9 +7,9 @@
 </template>
 
 <script setup>
-import AppMenu from "../components/AppMenu.vue";
-import AppFooter from "../components/AppFooter.vue";
-import AppHome from "../components/AppHome.vue";
+import AppHome from "../components/routes/AppHome.vue";
+import AppFooter from "../components/layout/AppFooter.vue";
+import AppMenu from "../components/layout/AppMenu.vue";
 </script>
 
 <style lang="scss" scoped></style>

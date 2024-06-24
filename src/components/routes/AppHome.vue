@@ -1,10 +1,10 @@
 <template>
-  <div class="home-view__content flex flex-col gap-20 p-5">
+  <div class="home-view__content flex flex-col gap-8 p-5 my-8">
     <div
       class="home-view__about-us flex flex-col lg:flex-row justify-around items-center gap-5"
     >
       <div class="home-view__about-us__text">
-        <img src="@/assets/images/cosa-facciamo.jpg" alt="about-us" />
+        <img src="@/assets/images/about-us.jpg" alt="about-us" />
       </div>
       <div
         class="home-view__about-us__text lg:w-3/4 self-center text-paragraph bg-white p-5 rounded-3xl"
@@ -43,14 +43,14 @@
         progetto sia eseguito con la massima precisione e qualità.
       </div>
       <div class="home-view__about-us__text">
-        <img src="@/assets/images/about-us.jpg" alt="about-us" />
+        <img src="@/assets/images/what-we-do.jpg" alt="about-us" />
       </div>
     </div>
     <div
       class="home-view__tecnologie flex flex-col lg:flex-row justify-around items-center gap-5"
     >
       <div class="home-view__about-us__text">
-        <img src="@/assets/images/tecnologie.jpg" alt="about-us" />
+        <img src="@/assets/images/technology.jpg" alt="about-us" />
       </div>
       <div
         class="home-view__about-us__text lg:w-3/4 self-center text-paragraph bg-white p-5 rounded-3xl"
@@ -89,7 +89,7 @@ const technologies = [
   "CSS",
   "Wordpress",
   "Typescript",
-  "SWL",
+  "SQL",
   "Restfull",
   "PWA",
   "Bootstrap",
