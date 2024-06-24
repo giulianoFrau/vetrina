@@ -4,7 +4,7 @@
   >
   <app-menu/>
   
-    <div class="home-view__title font-bold text-center py-3">Homepage</div>
+    <div class="home-view__title font-bold text-center py-3">Servizi</div>
 
   </div>
 </template>

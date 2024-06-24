@@ -21,8 +21,6 @@
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@kyvg/vue3-notification": "^2.7.0",
     "@popperjs/core": "^2.11.6",
-    "@smart-contact/comparatore-api-service": "2.6.1",
-    "@smart-contact/smartify": "^1.2.0",
     "@vue/compat": "^3.2.41",
     "@vuelidate/components": "^1.2.3",
     "@vuelidate/core": "^2.0.0",

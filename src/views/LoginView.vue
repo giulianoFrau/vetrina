@@ -3,10 +3,10 @@
     <div class="py-4 sm:py-6"></div>
     <div class="logo mx-auto mb-5">
       <img
-        alt="logo MeglioQuesto"
+        alt="logo bd corporation"
         class="img-contain"
         width="300"
-        src="https://smart-contact-cdn.livelanding.it/images/logo-meglioQuesto-alternativo.png"
+        src="@/assets/images/logo-bd.png"
       />
     </div>
     <div class="container">

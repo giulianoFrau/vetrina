@@ -1,5 +1,6 @@
 <template>
   <div class="app md:flex">
+
     <router-view v-slot="{ Component }">
       <transition name="fade" mode="out-in">
         <component :is="Component" />
@@ -27,6 +28,7 @@
 
 <script setup>
 import { provide, ref } from "vue";
+
 // import { useAuthStore } from "./stores";
 import { breakpointsBootstrapV5, useBreakpoints } from "@vueuse/core";
 
