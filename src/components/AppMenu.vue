@@ -4,7 +4,7 @@
       <template #start>
         <img
           alt="logo bd"
-          src="@/assets/images/logo-bd.jpg"
+          src="@/assets/images/logo-bd.png"
           :width="isMobile ? '200' : '400'"
         />
       </template>

@@ -1,12 +1,12 @@
 <template>
-  <div id="login-view" class=" flex-col w-full h-screen bg-no-repeat bg-cover">
+  <div id="login-view" class="flex-col w-full h-screen bg-no-repeat bg-cover">
     <div class="py-4 sm:py-6"></div>
     <div class="logo mx-auto mb-5">
       <img
         alt="logo bd corporation"
         class="img-contain"
         width="300"
-        src="@/assets/images/logo-bd.jpg"
+        src="@/assets/images/logo-bd.png"
       />
     </div>
     <div class="container">
@@ -32,7 +32,6 @@ import LoginForm from "@/components/forms/LoginForm.vue";
 #login-view {
   .logo {
     width: min-content;
-
   }
 
   @include media-breakpoint-up("md") {
