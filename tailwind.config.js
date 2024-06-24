@@ -9,6 +9,7 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
+   
     colors: {
       'blue': '#1fb6ff',
       'purple': '#7e5bef',
@@ -20,6 +21,8 @@ module.exports = {
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
       'primary': '#121063',
+      'title':'#873021',
+      'paragraph':'#4f4f4f',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],

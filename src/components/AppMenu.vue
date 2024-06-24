@@ -2,18 +2,18 @@
   <div class="menu-container">
     <Menubar :model="items">
       <template #start>
-       
         <img
           alt="logo bd"
           src="@/assets/images/logo-bd.jpg"
-          :width="isMobile?'200':'400'"
-       
+          :width="isMobile ? '200' : '400'"
         />
       </template>
       <template #item="{ item, props, hasSubmenu, root }">
         <a v-ripple class="flex justify-center px-5" v-bind="props.action">
-          <span :class="item.icon" />
-          <span class="menu-container__label ml-2 text-xl">{{ item.label }}</span>
+          <span :class="item.icon" class="text-title" />
+          <span class="menu-container__label ml-2 text-xl text-title">{{
+            item.label
+          }}</span>
         </a>
       </template>
     </Menubar>
@@ -56,7 +56,7 @@ const items = ref([
 <style lang="scss">
 .menu-container {
   .p-menubar {
-    background-color: #f7f7f7;
+    background-color: transparent;
     border-radius: 0;
     justify-content: space-around;
   }

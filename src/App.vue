@@ -1,6 +1,5 @@
 <template>
   <div class="app md:flex">
-
     <router-view v-slot="{ Component }">
       <transition name="fade" mode="out-in">
         <component :is="Component" />
@@ -49,7 +48,9 @@ provide("showLoadingDialog", showLoadingDialog);
 <style lang="scss">
 @import "primeflex/primeflex.css";
 @import "primevue/resources/primevue.min.css";
-
+body {
+  background-color: #f5f5f5;
+}
 .cut-text {
   word-break: break-word;
 }
