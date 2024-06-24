@@ -1,10 +1,10 @@
 <template>
   <form
-    class="login-form flex flex-column gap-3"
+    class="login-form flex flex-col gap-3"
     autocomplete="off"
     @submit="onSubmit"
   >
-    <div class="flex flex-column gap-2">
+    <div class="flex flex-col gap-2">
       <label for="password">Password Attuale</label>
       <Password
         :inputProps="{ autocomplete: 'false' }"
@@ -21,7 +21,7 @@
         error.$message
       }}</InlineMessage>
     </div>
-    <div class="flex flex-column gap-2 w-full">
+    <div class="flex flex-col gap-2 w-full">
       <label for="password">Nuova Password</label>
       <Password
         type="password"

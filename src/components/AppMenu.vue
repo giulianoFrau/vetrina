@@ -11,9 +11,9 @@
         />
       </template>
       <template #item="{ item, props, hasSubmenu, root }">
-        <a v-ripple class="flex items-center px-5" v-bind="props.action">
+        <a v-ripple class="flex justify-center px-5" v-bind="props.action">
           <span :class="item.icon" />
-          <span class="menu-container__label ml-2">{{ item.label }}</span>
+          <span class="menu-container__label ml-2 text-xl">{{ item.label }}</span>
         </a>
       </template>
     </Menubar>
@@ -59,10 +59,6 @@ const items = ref([
     background-color: #f7f7f7;
     border-radius: 0;
     justify-content: space-around;
-  }
-
-  &__label {
-    font-size: 1.2rem;
   }
 
   @include media-breakpoint-down("lg") {

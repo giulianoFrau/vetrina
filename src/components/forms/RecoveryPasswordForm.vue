@@ -1,6 +1,6 @@
 <template>
-  <div class="login-form flex flex-column gap-3">
-    <div class="flex flex-column gap-2">
+  <div class="login-form flex flex-col gap-3">
+    <div class="flex flex-col gap-2">
       <label for="userId">Email</label>
       <InputText
         type="text"

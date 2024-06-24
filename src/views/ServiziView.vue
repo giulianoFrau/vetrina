@@ -1,6 +1,6 @@
 <template>
   <div
-    class="home-view w-full flex flex-column gap-5"
+    class="home-view w-full flex flex-col gap-5"
   >
   <app-menu/>
   

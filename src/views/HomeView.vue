@@ -1,8 +1,8 @@
 <template>
-  <div class="home-view w-full flex flex-column gap-5">
+  <div class="home-view w-full flex flex-col gap-5">
     <app-menu />
 
-    <div class="home-view__title font-bold text-center py-3">Homepage</div>
+    <div class="home-view__title font-bold text-center py-3 ">Homepage</div>
 
   </div>
 </template>

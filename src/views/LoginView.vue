@@ -1,5 +1,5 @@
 <template>
-  <div id="login-view" class="center flex-column w-full">
+  <div id="login-view" class=" flex-col w-full h-screen bg-no-repeat bg-cover">
     <div class="py-4 sm:py-6"></div>
     <div class="logo mx-auto mb-5">
       <img
@@ -30,21 +30,12 @@ import LoginForm from "@/components/forms/LoginForm.vue";
 
 <style lang="scss">
 #login-view {
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #f5f9ff;
   .logo {
     width: min-content;
-    // position: absolute;
-    //top: 20vw;
+
   }
 
   @include media-breakpoint-up("md") {
-    .logo {
-      //   top: 3rem;
-    }
-
     .form-container {
       width: min-content;
     }
