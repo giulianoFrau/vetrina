@@ -10,7 +10,7 @@
           :class="{ 'w-32': isMobile, 'w-48': !isMobile }"
         />
       </div>
-      <nav class="ml-10 flex space-x-4 flex-wrap">
+      <nav class="ml-10 flex gap-x-4 flex-wrap">
         <router-link to="/" class="text-white hover:text-gray-300"
           >Home</router-link
         >
