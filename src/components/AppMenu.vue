@@ -38,7 +38,7 @@ const items = ref([
   },
   {
     label: "Servizi",
-    icon: "pi pi-star",
+    icon: "pi pi-list",
     command: () => {
       router.push("/servizi");
     },
