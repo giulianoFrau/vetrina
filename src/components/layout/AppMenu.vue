@@ -43,13 +43,6 @@ const items = ref([
       router.push("/servizi");
     },
   },
-  {
-    label: "Contattaci",
-    icon: "pi pi-envelope",
-    command: () => {
-      router.push("/contatti");
-    },
-  },
 ]);
 </script>
 

@@ -17,9 +17,6 @@
         <router-link to="/servizi" class="text-white hover:text-gray-300"
           >Servizi</router-link
         >
-        <router-link to="/contatti" class="text-white hover:text-gray-300"
-          >Contattaci</router-link
-        >
       </nav>
     </div>
     <div class="mt-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
