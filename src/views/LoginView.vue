@@ -3,10 +3,10 @@
     <div class="py-4 sm:py-6"></div>
     <div class="logo mx-auto mb-5">
       <img
-        alt="logo bd corporation"
+        alt="logo bd"
         class="img-contain"
         width="300"
-        src="@/assets/images/logo-bd.png"
+        src="@/assets/images/logo-bd-black.png"
       />
     </div>
     <div class="container">
