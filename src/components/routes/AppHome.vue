@@ -69,7 +69,7 @@
         <div class="flex flex-wrap gap-3 mt-3">
           <div v-for="technology in filteredTechnologies" :key="technology">
             <span
-              class="px-2 py-1 border-1 border-black rounded-3xl text-title border-paragraph font-bold"
+              class="px-2 py-2 border-1 border-black rounded-3xl text-title border-paragraph font-bold"
               >{{ technology }}</span
             >
           </div>
