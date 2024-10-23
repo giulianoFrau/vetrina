@@ -67,7 +67,7 @@
         informate, e garantire la sicurezza delle informazioni aziendali.Le
         nostre principali tecnologie sono:
         <div class="flex flex-wrap gap-3 mt-3">
-          <div v-for="technology in technologies" :key="technology">
+          <div v-for="technology in filteredTechnologies" :key="technology">
             <span
               class="px-2 py-1 border-1 border-black rounded-3xl text-title border-paragraph font-bold"
               >{{ technology }}</span
@@ -80,6 +80,7 @@
 </template>
 
 <script setup>
+import { computed } from "vue";
 const technologies = [
   "Javascript",
   "Vue",
@@ -97,6 +98,10 @@ const technologies = [
   "PrimeFlex",
   "Tailwind",
 ];
+
+const filteredTechnologies = computed(() => {
+  return technologies.filter((technology) => technology !== "Javascript");
+});
 </script>
 
 <style lang="scss" scoped></style>
