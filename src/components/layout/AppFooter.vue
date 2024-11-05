@@ -5,7 +5,7 @@
     >
       <div class="flex-shrink-0">
         <img
-          alt="logo bd"
+          alt="logo"
           src="@/assets/images/logo-bd-black.png"
           :class="{ 'w-32': isMobile, 'w-48': !isMobile }"
         />
